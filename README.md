@@ -4,7 +4,7 @@ O padrão Bridge é um padrão estrutural que tem como objetivo desacoplar uma a
 
 ## Problema
 
-Considere um sistema que envolve diferentes formas geométricas (como `Círculo` e `Quadrado`) e diferentes tipos de renderizadores (como `RenderizadorSVG` e `RenderizadorRaster`). Sem o padrão Bridge, você acabaria criando uma classe para cada combinação de forma e renderizador, resultando em um número exponencial de classes, como:
+Considere um sistema que envolve diferentes formas geométricas (como `Círculo` e `Quadrado`) e diferentes tipos de renderizadores (como `Renderizador2D` e `Renderizador3D`). Sem o padrão Bridge, você acabaria criando uma classe para cada combinação de forma e renderizador, resultando em um número exponencial de classes, como:
 
 - `CírculoRenderizador2D`
 - `CírculoRenderizador3D`

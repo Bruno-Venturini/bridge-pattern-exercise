@@ -10,6 +10,6 @@ public class Circulo extends Forma {
 
     @Override
     public void renderizarForma() {
-        this.renderizador.rederizarForma("Circulo", this.cor);
+        this.renderizador.rederizarForma("círculo", this.cor);
     }
 }

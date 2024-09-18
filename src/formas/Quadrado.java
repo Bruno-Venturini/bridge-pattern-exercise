@@ -10,6 +10,6 @@ public class Quadrado extends Forma {
 
     @Override
     public void renderizarForma() {
-        this.renderizador.rederizarForma("Quadrado", this.cor);
+        this.renderizador.rederizarForma("quadrado", this.cor);
     }
 }
